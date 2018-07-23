@@ -31,7 +31,7 @@ namespace Lab5
 
                 //invalid input
 
-                if (inputNumber > 10 || inputNumber < 1)
+                if (inputNumber >= 10 || inputNumber < 1)
                 {
 
                     Console.WriteLine("Invalid input!\n");
